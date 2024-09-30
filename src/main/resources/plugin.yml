@@ -1,0 +1,15 @@
+main: com.puddingkc.KcCommandBridge
+name: KcCommandBridge
+version: 1.0.1
+api-version: "1.20"
+author: "PuddingKC"
+permissions:
+  kccommandbridge.reload:
+    default: op
+commands:
+  commandbridge:
+    permission: kccommandbridge.reload
+    aliases:
+      - "kccommandbridge"
+      - "cb"
+      - "kccb"

@@ -1,0 +1,8 @@
+# Output debug logs
+debug: false
+
+# List of commands to forward
+# Asterisks represent custom content
+commands:
+  - "cmi tpa *"
+  - "trade *"
